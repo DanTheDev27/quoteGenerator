@@ -1,0 +1,42 @@
+body {
+    background-color: #c68e17;
+    background-image: url("cork.png");
+}
+
+#quote, #author {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#quote {
+    font-weight: Bolder;
+    padding-top: 80px;
+}
+
+#author {
+    font-weight: italic;
+    padding-top: 25px;
+}
+#div {
+    background-color: #fffc6b;
+    /* border: solid 5px; */
+    height: 60vh;
+    width: 45vw;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 10px;
+    transform: rotate(.25deg);
+    position:relative;
+    box-shadow: 4px 4px 8px rgba(0,0,0, 0.8);
+    line-height: 2;
+}
+
+@media screen and (max-width: 900px) {
+    #div {
+        width: 75vw;
+        height: 60vh;
+        line-height: 1.2
+    }
+}
