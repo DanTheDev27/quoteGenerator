@@ -1,6 +1,6 @@
 body {
-    background-color: #c68e17;
-    background-image: url("cork.png");
+    background: linear-gradient(to left,#A8E6CF, #FFDAB9); 
+    /* light mint and pale peach */
 }
 
 #quote, #author {
@@ -20,7 +20,7 @@ body {
     padding-top: 25px;
 }
 #div {
-    background-color: #fffc6b;
+    background-color: #E0F7FA; /*icy white*/
     /* border: solid 5px; */
     height: 60vh;
     width: 45vw;
@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     transform: rotate(.25deg);
     position:relative;
-    box-shadow: 4px 4px 8px rgba(0,0,0, 0.8);
+    box-shadow: 6px 6px 10px rgba(0,0,0, 0.8);
     line-height: 2;
 }
 
