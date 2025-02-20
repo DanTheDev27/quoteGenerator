@@ -18,11 +18,12 @@ body {
 #author {
     font-weight: italic;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 #div {
-    background-color: #E0F7FA; /*icy white*/
+    background-color: #E0F7FA61; /*icy white 38% transparency*/
     /* border: solid 5px; */
-    height: 60vh;
+    height: 55vh;
     width: 45vw;
     margin: auto;
     margin-top: 15vh;
@@ -33,10 +34,24 @@ body {
     line-height: 2;
 }
 
+#btn {
+    display: block;
+    margin: auto;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 8px;
+    /* padding-bottom: 15px; */
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+    background: #A3A6F1;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 900px) {
     #div {
         width: 75vw;
-        height: 60vh;
+        min-height: 55vh;
         line-height: 1.2
     }
 }

@@ -1,6 +1,11 @@
 
 const api_url = 'https://dummyjson.com/quotes/random';  // Make sure the URL is correctly formatted
 
+let button = document.getElementById('btn');
+button.addEventListener('click', function() {
+  getapi(api_url)
+})
+
 async function getapi(url) {
   try {
     const response = await fetch(url);  // Fetch the data from the API
