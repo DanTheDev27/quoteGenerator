@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to left,#A8E6CF, #FFDAB9); 
-    /* light mint and pale peach */
+    background: linear-gradient(to left,#C4F7E3, #FFE2C7); 
+    /* light mint and pale peach  #A8E6CF, #FFDAB9*/
 }
 
 #quote, #author {
@@ -21,7 +21,7 @@ body {
     padding-bottom: 25px;
 }
 #div {
-    background-color: #E0F7FA61; /*icy white 38% transparency*/
+    background-color: #E0F7FA40; /*icy white 25% transparency*/
     /* border: solid 5px; */
     height: 55vh;
     width: 45vw;
@@ -46,6 +46,15 @@ body {
     font-size: 2rem;
     background: #A3A6F1;
     border-radius: 25px;
+    border: 0px;
+}
+
+#btn:active {
+    background-color: #4B6A94;
+}
+
+#btn:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
